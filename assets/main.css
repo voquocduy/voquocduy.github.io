@@ -1,0 +1,249 @@
+.hidden {
+  display: none;
+}
+
+.affix .hidden {
+  display: block !important;
+}
+
+.blue {
+  color: #00A8E8;
+}
+
+body {
+  background-color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #666;
+  margin: 20px 0 20px 0;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  color: black;
+  text-align: right;
+}
+
+#nav {
+  background-color: black;
+  width: 100%;
+  min-height: 0;
+  max-height: auto;
+  margin:0;
+  border-color: transparent;
+}
+
+#nav.affix {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  border: 0;
+  margin-top: 0;
+  padding-top: 0px;
+  border-radius: 0;
+  animation: fadeIn 0.5s ease-in;
+  -webkit-animation: fadeIn 0.5s;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#nav-btns .active li, #nav-btns .active a {
+    background-color: black;
+    color: #00A8E8;
+    font-weight: bold;
+}
+
+.nav-buttons a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+}
+
+.nav-buttons a:hover {
+  background:gray;
+  color: black;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+#nav .container {
+ padding: 10px 0 10px 0;
+}
+
+.arrow {
+  min-height: 10vh;
+  font-size: 400%;
+  color: #666;
+}
+
+#home {
+  padding-top: 10vh;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+#home h1 {
+  text-align:center;
+  font-size: 550%;
+  font-weight: 900;
+  margin: 0;
+}
+
+#home p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 150%;
+  margin: 0;
+}
+
+#about {
+  min-height: 90vh;
+  position: relative;
+  padding: 0;
+  background: url('img/me2.jpg') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#about .row {
+  background-color: black;
+  min-height: 90vh;
+  opacity: 0.7;
+}
+
+#about h2{
+  font-size: 400%;
+  text-align: right;
+  margin: 100px 50px 30px 0;
+}
+
+#about p {
+  text-align: right;
+  font-weight: 300;
+  font-size: 200%;
+  color: white;
+  margin-right: 50px;
+}
+
+.portfolio {
+  margin:0;
+  height: auto;
+}
+
+.portfolio h2{
+  font-size: 400%;
+  text-align: center;
+  margin: 100px 0 75px 0;
+}
+
+#contact {
+  margin-top: 50px;
+  min-height: 90vh;
+}
+
+#contact h2{
+  font-size: 400%;
+  text-align: center;
+  margin: 100px 0 0 0;
+}
+
+#contact p {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 50px;
+}
+
+.icons {
+ text-align: center;
+}
+
+.icons a {
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+  margin: 20px 0 0 0;
+  font-size: 5vh;
+}
+
+.icons a:hover {
+  color: #06AED5;
+}
+
+.row {
+  margin: 0;
+}
+
+#port .col-md-4, #port .col-xs-12, #port .row {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.thumbnail {
+  position:relative;
+  overflow:hidden;
+  border-width: 0;
+  border-radius: 0;
+}
+ 
+.caption {
+  position:absolute;
+  top: 0;
+  right: 0;
+  background: rgba(40,40,40, 0.8);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 2;
+  padding: 30%;
+}
+
+.caption h3, .caption p, .caption h4, .caption a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.caption p {
+  font-size: 1vw;
+}
+
+.caption h3 {
+  font-size: 2vw;
+}
+
+#footer {
+  margin: 0 0 40px 0;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
